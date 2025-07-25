@@ -1,4 +1,22 @@
+header, main, footer{
+    margin: 0 80px;
+    
+}
+
 .shop-icon{
     height: 24px;
     width: 24px;
+}
+/* .deal-left{
+    background-image: url(assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    
+    
+} */
+.deal-right{
+    
+}
+.cart img{
+    height: 270px;
+    width: 222px;
 }
