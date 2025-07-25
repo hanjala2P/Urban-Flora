@@ -148,6 +148,7 @@ main section li{
     flex-direction: column;
     gap:24px;
     align-items: left;
+    margin-top: -100px;
     
 
 }
