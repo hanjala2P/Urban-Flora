@@ -55,16 +55,95 @@
     margin-top: 12px;
    
  }
- .carts-top{
+ .carts-top {
     display: grid;
     grid-template-columns: 170px 170px;
-    gap: 12px;
+    gap:8px;
 
  }
  .cart button{
     width:170px;
+    margin-bottom: 24px;
  }
+.flower-and-plant-lover{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap:32px;
+    margin-top:24px;
+}
+.flower-and-plant-lover .fl-img :first-child{
+    height: 380px;
+}
+.flower-and-plant-lover .fl-img :last-child{
+ display: none;
+}
 
+main section ul{
+     font-size: 24px;
+     align-items: center;
+     margin: 0 auto;
 
+}
+main section li{
+     font-size: 12px;
+     width: 220px;
+     align-items: center;
+     margin: 0 auto;
+     text-align: left;
+}
+.flower-and-plant-lover-right{
+    display: flex;
+    gap:24px;
+    margin: 0 auto;
+}
+.fl-pl{
+    font-size: 24px;
+    text-align: left;
+}
+.deal{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+.deal-left{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 12px;
+}
+.latest-de{
+    font-size: 24px;
+}
+.bg{
+    background-size:600px;
+    margin-top: -32px;
+} 
+.sea{
+    width: 240px;
+    height: 48px;
+}
+.sea-btn{
+    width: 120px;
+    height: 48px;
+}
+.join-t{
+    font-size: 20px;
+}
+}
+/* join section end */
+.footer-main{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    align-items: left;
+    margin: 0 8px;
 
+}
+.footer-center{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
 }
