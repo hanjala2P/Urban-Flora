@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Urban Flora</title>
+    <link rel="shortcut icon" href="assets/trusted-badge.png" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,12 +16,12 @@
 </head>
 <body class="font-inter">
     <header>
-        <nav class="flex  justify-between items-center"><div class="nav-left"><h1 class="text-5xl font-bold text-orange-600 ">Urban Flora</h1></div>
+        <nav class="flex  justify-between items-center mt-"><div class="nav-left"><h1 class="text-5xl font-bold text-orange-600 ">Urban Flora</h1></div>
             <div class="nav-right flex gap-24">
                 <ul class="flex gap-24">
                     <li><a href="">Home</a></li>
-                    <li><a href="">Shop</a></li>
-                    <li><a href="">About Us</a></li>
+                    <li class="text-gray-600"><a href="">Shop</a></li>
+                    <li class="text-gray-600"><a href="">About Us</a></li>
                 </ul>  
 
                 <div class="add-cart flex items-center"><img class="shop-icon" src="assets/shopping-cart.png" alt=""><p>Cart ($56)</p></div>
@@ -128,8 +129,8 @@
         <!-- badge section end here -->
 
 
-        <section class="deal">
-         <div class="our-plants   mt-24 flex flex-col items-center justify-center ">
+        <section class="deal flex flex-col gap-16 items-center justify-center">
+         <div class="our-plants  mt-24 flex flex-col items-center justify-center ">
             <h1 class="text-5xl  font-semibold text-center font-serif"> <span class="text-orange-600 font-serif">Latest</span>  Deals</h1>
             <p class="text-gray-500 w-250 text-center   text-xl mt-8">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
         </div>
@@ -148,15 +149,44 @@
         </section>
     </main>
     <footer>
-        <section class="bg-[url(assets/news-letter-bg.png)] bg-no-repeat h-140 mt-48 flex items-center justify-center flex-col gap-8">
+        <section class="bg-[url(assets/news-letter-bg.png)] bg-no-repeat bg-center h-130 mt-48 flex items-center justify-center flex-col gap-8">
             <h1 class="text-5xl text-white font-medium font-serif">Join the colorful Bunch</h1>
             <div class="search flex">
                 <input class="w-160 bg-gray-200 h-16 indent-8 text-gray-800 text-lg " type="text" placeholder="Search">
             <button class="bg-orange-500 h-16 w-60 text-white text-lg">Search</button>
             </div>
         </section>
-        <section>
-
+        <!-- join section end here -->
+        <section class="flex gap-32 items-top justify-between mt-16 mb-16 ">
+            <!-- footer have 3 part -->
+            <div class="footer-left flex flex-col gap-2">
+                <h1 class="font-bold text-orange-600 text-5xl">Urban Flora</h1>
+                <p class="font-inter text-lg w-80 text-gray-700 ">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+            </div>
+            <!-- footer left end here -->
+            <div class="footer-center flex gap-24 flex items-center justify-center">
+                <ul class="text-gray-500 flex flex-col gap-2">
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Blog</li>
+                    <li>FAQ</li>
+                    <li>Contact Us</li>
+                </ul>
+                <ul class="text-gray-500 flex flex-col gap-2">
+                    <li>Features</li>
+                    <li>Pricing</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                    <li>Help Center</li>
+                </ul>
+            </div>
+            <!-- footer center end here -->
+            <div class="footer-right flex  justify-center items-center gap-8">
+                <img class="w-8 h-8" src="assets/icon-linkedin.png" alt="">
+                <img class="w-5 h-5" src="assets/icon-twitter.png" alt="">
+                <img class="w-8 h-8" src="assets/icon-facebook.png" alt="">
+                <img class="w-8 h-8" src="assets/icon-youtube.png" alt="">
+            </div>
         
         </section>
     </footer>
